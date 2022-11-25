@@ -14,8 +14,8 @@ services:
   moodle:
     image: docker.io/bitnami/moodle:4
     ports:
-      - '8081:8080'
-      - '8443:8443'
+      - '8083:8083'
+      - '8444:8444'
     environment:
       - MOODLE_DATABASE_HOST=mariadb
       - MOODLE_DATABASE_PORT_NUMBER=3306
