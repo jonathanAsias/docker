@@ -18,7 +18,7 @@ services:
       - '4433:8443'
     environment:
       - MOODLE_DATABASE_HOST=mariadb4
-      - MOODLE_DATABASE_PORT_NUMBER=3307
+      - MOODLE_DATABASE_PORT_NUMBER=3306
       - MOODLE_DATABASE_USER=bn_moodle4
       - MOODLE_DATABASE_NAME=bitnami_moodle4
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
